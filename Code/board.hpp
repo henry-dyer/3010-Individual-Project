@@ -1,7 +1,7 @@
 #ifndef _BOARD_HPP_
 #define _BOARD_HPP_
 
-#include "square.hpp"
+#include "Square.hpp"
 #include <iostream>
 
 class Board
@@ -14,9 +14,15 @@ class Board
 
         void give_hint();
 
+        void user_move();
+
         void print_board();
 
+        bool valid_move();
+
         bool solve_board();
+
+        bool empty_spot(int xCoor, int yCoor);
 
         friend std::ostream& operator<<(std::ostream& os, const Board &b);
 

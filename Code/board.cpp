@@ -1,4 +1,4 @@
-#include "board.hpp"
+#include "Board.hpp"
 
 Board::Board()
 {
@@ -31,6 +31,34 @@ const Square Board::get_square(int xCoor, int yCoor)
     return _board_[xCoor][yCoor];
 }
 
+void Board::user_move()
+{
+    int xCoor = 0;
+    int yCoor = 0;
+    bool emptySpot = false;
+
+    while(!emptySpot)
+    {
+        while(xCoor < 1 && xCoor > 9)
+        {
+            std::cout << "Please enter a row selection (1 - 9): ";
+            std::cin >> xCoor;
+            if(!cin.fail()) continue;
+            std::cout << "Invalid input please try again\n" 
+        }
+
+        while(yCoor < 1 && yCoor > 9)
+        {
+            std::cout << "Please enter a row selection (1 - 9): ";
+            std::cin >> yCoor;
+            if(!cin.fail()) continue;
+            std::cout << "Invalid input please try again\n" 
+        }
+        emptySpot = empty_spot(xCoor, yCoor);
+    }
+
+}
+
 
 void Board::print_board()
 {
@@ -38,7 +66,7 @@ void Board::print_board()
 
     for(int i = 0; i < 9; i++)
     {
-        std::cout << char(65+i) << "    ";
+        std::cout << i << "    ";
         for(int j = 0; j < 9; j++)
         {
             std::cout << _board_[i][j].get_value() << " ";
@@ -55,6 +83,13 @@ void Board::print_board()
     std::cout << std::endl;
 
     return;
+}
+
+bool Board::empty_spot(int xCoor, int yCoor)
+{
+    if(_board_[xCoor][yCoor] == 0) return true;
+
+    return false;
 }
 
 
@@ -76,6 +111,11 @@ bool valid_column()
 bool valid_box()
 {
 
+}
+
+bool Board::valid_move()
+{
+    
 }
 
 bool Board::solve_board()
