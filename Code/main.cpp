@@ -32,7 +32,13 @@ int main()
         board = load_board(select_difficulty());
     }
 
-    board.print_board();
+    board.solve_board();
+
+    while(!board.game_over())
+    {
+        board.print_board();
+        board.execute_move();
+    }
 
     return 0;
 }
@@ -55,8 +61,8 @@ int board_options()
         if(choice == "1" || choice == "2") return stoi(choice);
 
         std::cout << "Invalid option selected, please try again." << std::endl; 
-
     }   
+    return -1;
 }
 
 /*
@@ -131,7 +137,6 @@ Board load_board(Difficulty difficulty)
         j = 0;
         while(ss.good())
         {
-            std::cout << i << " ,  " << j << std::endl;
             std::string substr;
             getline(ss, substr, ',');
             board[i][j] = stoi(substr);

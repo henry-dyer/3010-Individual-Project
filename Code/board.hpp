@@ -4,25 +4,39 @@
 #include "Square.hpp"
 #include <iostream>
 
+struct Coordinate
+{
+    int xCoor_;
+    int yCoor_;
+};
+
 class Board
 {
     public:
         Board();
         Board(int setup[9][9]);
 
-        const Square get_square(int xCoor, int yCoor);
+        Square get_square(int xCoor, int yCoor);
 
         void give_hint();
 
-        void user_move();
+        Coordinate get_user_move();
+
+        void execute_move();
 
         void print_board();
 
-        bool valid_move();
+        void print_solution();
+
+        bool valid_move(Coordinate coordinate, int val);
+
+        bool valid_spot(Coordinate coordinate, int val);
 
         bool solve_board();
 
-        bool empty_spot(int xCoor, int yCoor);
+        bool game_over();
+
+        bool prefilled(int xCoor, int yCoor);
 
         friend std::ostream& operator<<(std::ostream& os, const Board &b);
 
