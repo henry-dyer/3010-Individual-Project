@@ -4,6 +4,7 @@
 #include "Square.hpp"
 #include <iostream>
 
+
 struct Coordinate
 {
     int xCoor_;

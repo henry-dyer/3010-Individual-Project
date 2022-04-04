@@ -3,17 +3,15 @@
 
 #include "Board.hpp"
 #include "string"
-//#include </Users/henrydyer/Documents/OpenCV/installation/OpenCV/lib/cmake/opencv4/opencv.hpp>
+#include <opencv2/opencv.hpp>
 
 class CVBoard : public Board
 {
     public:
 
-        //CVBoard() : Board();
+        CVBoard() : Board() {};
         void find_board();
-
-        const std::string get_filename() {return filename_;};
-        void set_filename(std::string filname) ;
+        void input_filename();
 
     private:
         std::string filename_;

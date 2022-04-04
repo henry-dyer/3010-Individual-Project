@@ -1,1 +1,5 @@
-/Code/CMakeLists.txt
+/Code/Board.o
+/Code/Square.o
+/Code/CVBoard.o
+/Code/GenBoard.o
+/Code/Build/

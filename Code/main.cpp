@@ -22,9 +22,9 @@ int main()
 
     if(choice == 1)
     {
-        std::cout << "Please enter a filename : ";
-        std::cin >> filename;
-        std::cout << "This feature not working right now sorry!" << std::endl;
+        CVBoard cvboard;
+        cvboard.input_filename();
+        cvboard.find_board();
         return 0;
     }
     else
