@@ -8,6 +8,9 @@
 #include <time.h>
 #include <sstream>
 
+// cmake --build . --config Release
+
+
 int board_options();
 Board load_board(Difficulty difficulty);
 Difficulty select_difficulty();
