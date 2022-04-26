@@ -3,6 +3,9 @@
 
 #include "Square.hpp"
 #include <iostream>
+#include <vector>
+#include <stdlib.h>
+#include <time.h>
 
 
 struct Coordinate
@@ -16,6 +19,7 @@ class Board
     public:
         Board();
         Board(int setup[9][9]);
+        Board(std::vector<std::vector<int>> setup);
 
         Square get_square(int xCoor, int yCoor);
 
@@ -39,9 +43,11 @@ class Board
 
         bool prefilled(int xCoor, int yCoor);
 
+        int get_solution(int xCoor, int yCoor);
+
         friend std::ostream& operator<<(std::ostream& os, const Board &b);
 
-    private:
+    protected:
         Square _board_[9][9];
         int _solution_[9][9];
         int _hints_;

@@ -6,6 +6,8 @@ Board << overload function
 Inputting a non number in as input
 
 Note: prefilled function will always return true when until solve board method is implemented.
+
+//give hint function has comment that might need to be addressed
 */
 
 Board::Board()
@@ -33,6 +35,20 @@ Board::Board(int setup[9][9])
         }
     }
 }
+
+Board::Board(std::vector<std::vector<int>> setup)
+{
+    for (int i = 0; i < setup.size(); i++)
+    {
+        for(int j = 0; j < setup[i].size(); j++)
+        {
+            _board_[i][j] = Square(setup[i][j]);
+
+            _solution_[i][j] = setup[i][j];
+        }
+    }
+}
+
 
 //Should be const methods 
 Square Board::get_square(int xCoor, int yCoor)
@@ -82,6 +98,12 @@ Coordinate Board::get_user_move()
     return coor;
 }
 
+/*
+    Takes a coordinate from the get_user_move() function and then takes a value
+    to put in the spot, will not allow for wrong moves here 
+    @param NONE
+    @return NONE
+*/
 void Board::execute_move()
 {
     Coordinate coordinate = get_user_move();
@@ -161,20 +183,51 @@ void Board::print_solution()
     return;
 }
 
+/*
+    Checke if location passed as parameters was a spot given by the original board.
+    @param X and Y coordinates of spot to check
+    @return True if spot was prefilled by computer, if not false
+*/
 bool Board::prefilled(int xCoor, int yCoor)
 {
     if(_board_[xCoor][yCoor].get_prefilled()) return true;
     return false;
 }
 
-
+/*
+    Loops through finding a random spot on the board and checking if the spot has been filled in yet.
+    Once it finds an unfilled spot it put the correct value from the solution in the spot
+    @param NONE
+    @return NONE
+*/
 void Board::give_hint()
 {
+    int randRow;
+    int randCol;
+
+    _hints_++;
+
+    while(1)
+    {
+        srand(time(NULL));
+
+        randRow = rand() % 9;
+        randCol = rand() % 9;
+
+        if(_board_[randRow][randCol].get_value()) // not sure if this works for ints as well as bools
+        {
+            continue;
+        }
+        else
+        {
+            _board_[randRow][randCol] = _solution_[randRow][randCol];
+        }
+    }
     return;
 }
 
 /*
-    Checks if move is valid at specified row
+    Checks if move is valid at specified row, helper function for valid_spot method
     @param Coordinate location to check
     @param Int value to check
     @return Valid / Not Valid
@@ -188,6 +241,12 @@ bool valid_row(int board[9][9], Coordinate coordinate, int val)
     return true;
 }
 
+/*
+    Checks if move is valid at specified column, helper function for valid_spot method
+    @param Coordinate location to check
+    @param Int value to check
+    @return Valid / Not Valid
+*/
 bool valid_column(int board[9][9], Coordinate coordinate, int val)
 {
     for(int i = 0; i < 9; i++)
@@ -197,6 +256,13 @@ bool valid_column(int board[9][9], Coordinate coordinate, int val)
     return true;
 }
 
+
+/*
+    Checks if move is valid at specified box, helper function for valid_spot method
+    @param Coordinate location to check
+    @param Int value to check
+    @return Valid / Not Valid
+*/
 bool valid_box(int board[9][9], Coordinate coordinate, int val)
 {
     int xBox = ((coordinate.xCoor_) / 3) * 3;
@@ -259,6 +325,11 @@ bool Board::solve_board()
     }
     return false;
 }   
+
+int Board::get_solution(int xCoor, int yCoor)
+{
+    return _solution_[xCoor][yCoor];
+}
 
 bool Board::game_over()
 {
