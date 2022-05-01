@@ -1,0 +1,56 @@
+# ninja log v5
+103	3862	1651375786904197815	CMakeFiles/Sudoku_Project.dir/gameoptiondialog.cpp.o	f90696a63c1430e3
+1102	6449	1651263383965070171	CMakeFiles/Sudoku_Project.dir/Board.cpp.o	e4d655988f366649
+13	97	1651375783162458278	/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/timestamp	77964495aea09add
+135	4833	1651256618009578672	CMakeFiles/Sudoku_Project.dir/Square.cpp.o	8240dae370ea43f
+1103	9016	1651263386517250900	CMakeFiles/Sudoku_Project.dir/main.cpp.o	c82c7a410a94d3e8
+118	230	1651254859906258485	/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/EWIEGA46WW/qrc_resources.cpp	13a13af4f0e53e47
+2	425	1651278573506468245	build.ninja	3db127e3495a9d66
+134	5730	1651256153529391998	CMakeFiles/Sudoku_Project.dir/GenBoard.cpp.o	2650d1c3189469f7
+131	5934	1651259301918926663	CMakeFiles/Sudoku_Project.dir/CVBoard.cpp.o	cb101fb5b1d9391f
+13	97	1651375783162458278	Sudoku_Project_autogen/mocs_compilation.cpp	77964495aea09add
+13	97	1651375783162458278	/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/mocs_compilation.cpp	77964495aea09add
+5412	5680	1651375788737050419	Sudoku_Project.app/Contents/MacOS/Sudoku_Project	dd465462510630a3
+235	1160	1651254860821864847	CMakeFiles/Sudoku_Project.dir/Sudoku_Project_autogen/EWIEGA46WW/qrc_resources.cpp.o	dc642bf29ecfd739
+103	3214	1651375786259751613	CMakeFiles/Sudoku_Project.dir/photoboarddialog.cpp.o	a7ec4c4c3fd5c857
+103	5411	1651375788445645963	CMakeFiles/Sudoku_Project.dir/mainwindow.cpp.o	bf3386539a4de821
+103	3858	1651375786899989366	CMakeFiles/Sudoku_Project.dir/computerboarddialog.cpp.o	6fe8abf2f98f870e
+13	97	1651375783162458278	Sudoku_Project_autogen/timestamp	77964495aea09add
+1103	9137	1651263386644130850	CMakeFiles/Sudoku_Project.dir/Sudoku_Project_autogen/mocs_compilation.cpp.o	82c64ee0f78d3960
+118	230	1651254859906258485	Sudoku_Project_autogen/EWIEGA46WW/qrc_resources.cpp	13a13af4f0e53e47
+20	132	1651376235541803247	Sudoku_Project_autogen/timestamp	77964495aea09add
+20	132	1651376235541803247	Sudoku_Project_autogen/mocs_compilation.cpp	77964495aea09add
+20	132	1651376235541803247	/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/timestamp	77964495aea09add
+20	132	1651376235541803247	/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/mocs_compilation.cpp	77964495aea09add
+139	6853	1651376242230133182	CMakeFiles/Sudoku_Project.dir/photoboarddialog.cpp.o	a7ec4c4c3fd5c857
+139	7696	1651376243080372037	CMakeFiles/Sudoku_Project.dir/gameoptiondialog.cpp.o	f90696a63c1430e3
+140	7727	1651376243110142702	CMakeFiles/Sudoku_Project.dir/computerboarddialog.cpp.o	6fe8abf2f98f870e
+139	9485	1651376244863774764	CMakeFiles/Sudoku_Project.dir/mainwindow.cpp.o	bf3386539a4de821
+9485	9810	1651376245203095242	Sudoku_Project.app/Contents/MacOS/Sudoku_Project	dd465462510630a3
+25	159	1651376436849198191	Sudoku_Project_autogen/timestamp	77964495aea09add
+25	159	1651376436849198191	Sudoku_Project_autogen/mocs_compilation.cpp	77964495aea09add
+25	159	1651376436849198191	/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/timestamp	77964495aea09add
+25	159	1651376436849198191	/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/mocs_compilation.cpp	77964495aea09add
+165	5081	1651376441750621520	CMakeFiles/Sudoku_Project.dir/photoboarddialog.cpp.o	a7ec4c4c3fd5c857
+165	5911	1651376442575541121	CMakeFiles/Sudoku_Project.dir/computerboarddialog.cpp.o	6fe8abf2f98f870e
+164	5937	1651376442603359722	CMakeFiles/Sudoku_Project.dir/gameoptiondialog.cpp.o	f90696a63c1430e3
+164	8053	1651376444708486664	CMakeFiles/Sudoku_Project.dir/mainwindow.cpp.o	bf3386539a4de821
+8053	8356	1651376445035995584	Sudoku_Project.app/Contents/MacOS/Sudoku_Project	dd465462510630a3
+16	124	1651376522571083247	Sudoku_Project_autogen/timestamp	77964495aea09add
+16	124	1651376522571083247	Sudoku_Project_autogen/mocs_compilation.cpp	77964495aea09add
+16	124	1651376522571083247	/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/timestamp	77964495aea09add
+16	124	1651376522571083247	/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/mocs_compilation.cpp	77964495aea09add
+131	4431	1651376526856960880	CMakeFiles/Sudoku_Project.dir/photoboarddialog.cpp.o	a7ec4c4c3fd5c857
+132	5326	1651376527749029341	CMakeFiles/Sudoku_Project.dir/computerboarddialog.cpp.o	6fe8abf2f98f870e
+131	5348	1651376527760546284	CMakeFiles/Sudoku_Project.dir/gameoptiondialog.cpp.o	f90696a63c1430e3
+130	7201	1651376529620946672	CMakeFiles/Sudoku_Project.dir/mainwindow.cpp.o	bf3386539a4de821
+7202	7491	1651376529926897704	Sudoku_Project.app/Contents/MacOS/Sudoku_Project	dd465462510630a3
+23	605	1651438286938706604	Sudoku_Project_autogen/timestamp	77964495aea09add
+23	605	1651438286938706604	Sudoku_Project_autogen/mocs_compilation.cpp	77964495aea09add
+23	605	1651438286938706604	/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/timestamp	77964495aea09add
+23	605	1651438286938706604	/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/mocs_compilation.cpp	77964495aea09add
+614	6345	1651438292626209045	CMakeFiles/Sudoku_Project.dir/photoboarddialog.cpp.o	a7ec4c4c3fd5c857
+616	6816	1651438293120899570	CMakeFiles/Sudoku_Project.dir/computerboarddialog.cpp.o	6fe8abf2f98f870e
+614	6822	1651438293129562064	CMakeFiles/Sudoku_Project.dir/gameoptiondialog.cpp.o	f90696a63c1430e3
+611	8471	1651438294776098115	CMakeFiles/Sudoku_Project.dir/mainwindow.cpp.o	bf3386539a4de821
+8472	9040	1651438295368511881	Sudoku_Project.app/Contents/MacOS/Sudoku_Project	dd465462510630a3

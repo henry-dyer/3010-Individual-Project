@@ -1,7 +1,7 @@
-#ifndef _CV_BOARD_HPP_
-#define _CV_BOARD_HPP_
+#ifndef _CV_BOARD_H_
+#define _CV_BOARD_H_
 
-#include "Board.hpp"
+#include "Board.h"
 #include <string>
 #include <opencv2/opencv.hpp>
 #include "opencv2/imgproc.hpp"
@@ -14,8 +14,7 @@ class CVBoard : public Board
 {
     public:
 
-        CVBoard();
-        CVBoard(std::string file);
+        CVBoard(std::string filename);
         void draw_solution();
         
     private:

@@ -7,7 +7,7 @@
 int board_options();
 bool play_game(Board board);
 
-int main()
+int main(int argc, char* argv[])
 {
     std::string filename;
 
@@ -21,10 +21,8 @@ int main()
         cv_board.solve_board();
 
         cv_board.draw_solution();
-
-        play_game(cv_board);
-
         
+        play_game(cv_board);
 
     }
     else
@@ -33,7 +31,7 @@ int main()
         play_game(gen_board);
     }
     return 0;
-}
+}    
 
 /*
 Lets user select whether to upload file or play game created by CPU

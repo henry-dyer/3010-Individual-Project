@@ -1,0 +1,5 @@
+/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/CMakeFiles/Sudoku_Project.dir
+/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/CMakeFiles/Sudoku_Project_autogen_timestamp_deps.dir
+/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/CMakeFiles/Sudoku_Project_autogen.dir

@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project",
+	"CMAKE_SOURCE_DIR" : "/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project",
+	"INCLUDE_DIR" : "/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/Sudoku_Project_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project/photo_easy.png",
+		"/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project/Sudoku_Boards/easy_3.txt",
+		"/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project/Sudoku_Boards/easy_1.txt",
+		"/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project/Sudoku_Boards/medium_3.txt",
+		"/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project/Sudoku_Boards/medium_2.txt",
+		"/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project/Sudoku_Boards/medium_1.txt",
+		"/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project/Sudoku_Boards/easy_2.txt",
+		"/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project/Sudoku_Boards/hard_1.txt",
+		"/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project/Sudoku_Boards/hard_2.txt",
+		"/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project/Sudoku_Boards/hard_3.txt"
+	],
+	"LOCK_FILE" : "/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/CMakeFiles/Sudoku_Project_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/Applications/Qt/6.2.3/macos/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/henrydyer/Documents/CSCI 3010/Project/build-Sudoku_Project-Qt_6_2_3_for_macOS-Debug/CMakeFiles/Sudoku_Project_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/henrydyer/Documents/CSCI 3010/Project/Sudoku_Project/resources.qrc",
+	"VERBOSITY" : 0
+}

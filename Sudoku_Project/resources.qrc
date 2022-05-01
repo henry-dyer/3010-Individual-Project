@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Sudoku_Boards/easy_1.txt</file>
+        <file>Sudoku_Boards/hard_3.txt</file>
+        <file>Sudoku_Boards/medium_1.txt</file>
+        <file>Sudoku_Boards/easy_2.txt</file>
+        <file>Sudoku_Boards/easy_3.txt</file>
+        <file>Sudoku_Boards/medium_2.txt</file>
+        <file>Sudoku_Boards/medium_3.txt</file>
+        <file>Sudoku_Boards/hard_1.txt</file>
+        <file>Sudoku_Boards/hard_2.txt</file>
+        <file>photo_easy.png</file>
+    </qresource>
+</RCC>
